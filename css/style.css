@@ -1,0 +1,203 @@
+/*Home Page*/
+.food-family-charity { 
+    background-color: rgb(86, 85, 85);
+    font-family: Arial, Helvetica, sans-serif;
+ 
+}
+ header {
+    height: 10vh;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+h4 {
+    position: absolute;
+    right: 15px;
+    top: 40px;
+}
+.hero-1 {
+    background-image: url("../img/claudia-raya-yvamSKr8wBA-unsplash.jpg");
+    background-size: cover;
+    min-height: 300px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    border: none;
+    color: rgb(19, 1, 1);
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+.hero-content {
+    font-family: Arial, Helvetica, sans-serif;
+    color:#211f1f
+    gap: 10px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif
+}
+.hero-content h2 {
+    font-family: Arial, Helvetica, sans-serif
+    font-size: 45px;
+}
+.links {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif
+    padding: 20px;
+    margin-top: 40px;
+}
+.links:hover {
+    font-size: 15px;
+}
+
+.img-1, .img-2 {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    margin: 15px;
+    padding: 10px;
+    gap: 10px;
+    width: 200px;
+    height: 200px;   
+    }
+
+.description-1, .label-description-1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: green;
+    text-align: center;
+}
+
+
+/* About Page */
+.hero-2 {    
+    background-image: url("../img/ismael-paramo-Cns0h4ypRyA-unsplash\ \(1\).jpg");
+    background-size: cover;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+.img-3, .img-4, .img-5 {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    padding: 10px;
+    gap: 20px;
+    width: 200px;
+    height: 200px;
+}
+.description-2, .label-description-2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: green;
+    text-align: center;
+}
+button {
+  border: none;
+  color: rgb(19, 1, 1);
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+button:hover {
+    border-radius: 10px;
+    font-family: Helvetica;
+    font-weight: bold;
+    background-color: green;
+    color: #fff;
+}
+/* Join us page*/
+.hero-3 {
+    background-image: url("../img/Food-Donations-Culinary-Hill-1200x800-1.webp");
+    background-size: cover;
+    min-height: 300px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.svg-1, .svg-2, .svg-3 {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    padding: 10px;
+    gap: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+/* Donation Page */
+.hero-3 {    
+    background-image: url("../img/Donate-Food-Bank.jpg");
+    background-size: cover;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+.donation-form {
+    font-family: Arial, Helvetica, sans-serif;
+    align-content: center;
+    margin: 15px;
+    padding: 10px;
+    gap: 10px;
+    width: 200px;
+    height: 200px;  
+
+}
+
+/*Contact page*/
+
+
+
+/* Footer Page */
+.contact-info {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #454844;
+    color: #fff;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.footer-links {
+  margin: 15px 0;
+}
+
+.footer-links a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.contact p {
+  font-size: 12px;
+}
+
+.icon-1, .icon-2 {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    padding: 10px;
+    gap: 20px;
+    width: 100px;
+    height: 100px;
+    }
